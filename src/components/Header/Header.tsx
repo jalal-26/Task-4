@@ -54,8 +54,8 @@ const Header: React.FC<HeaderProps> = ({ logo, links, title, heroInfo }) => {
                             className="mune-icon"
                             src={
                                 isMenuOpen
-                                    ? `/menuIcon/BurgarIcon.svg`
-                                    : `/menuIcon/Xicon.svg`
+                                    ? `/Task-4/menuIcon/BurgarIcon.svg`
+                                    : `/Task-4/menuIcon/Xicon.svg`
                             }
                             alt=""
                         />

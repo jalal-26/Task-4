@@ -15,7 +15,7 @@ const MostTrending: React.FC<Props>=({ cardTINfo }) => {
                         <span>{card.price}</span>
                         <h3>{card.title}</h3>
                         <div className="address">
-                            <img className="location" src="/icons/location2.svg" alt="" />
+                            <img className="location" src="/Task-4/icons/location2.svg" alt="" />
                             <p>{card.address}</p>
                         </div>
                     </div>

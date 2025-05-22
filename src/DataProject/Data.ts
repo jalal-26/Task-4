@@ -1,4 +1,4 @@
-const hi: string = "";
+const hi: string = "/Task-4";
 export type NavLink = {
     title: string;
     href: string;
@@ -90,7 +90,7 @@ export const howItWorksCards: CardInfo[] = [
     },
 ];
 export const dreamSection: DreamSection = {
-    img: "/DreamImg.png",
+    img: `${hi}/DreamImg.png`,
     title: "Find Dream Home",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing eli",
 };
