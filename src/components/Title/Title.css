@@ -1,0 +1,16 @@
+.title {
+    text-align: start;
+    margin-bottom: 56px;
+    h1 {
+        font-weight: 700;
+        font-size: 3.9rem;
+        line-height: 100%;
+    }
+    p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 26px;
+        color: var(--text-opacity-color);
+    }
+}
+

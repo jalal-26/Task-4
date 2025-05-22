@@ -1,0 +1,41 @@
+.howWork {
+    .cards {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 43px;
+        .card:nth-child(2) {
+            background-color: var(--primary-color);
+            color: #ffffff;
+        }
+        .card:nth-child(2):hover {
+            box-shadow: 0 12px 24px rgba(2, 85, 149, 0.3),
+                0 8px 16px rgba(255,255, 255, 0.2);
+        }
+        .card {
+            max-width: 380px;
+            max-height: 255px;
+            padding: 30px 40px 80px;
+            border-radius: 15px;
+            text-align: start;
+            position: relative;
+            transition: all 0.3s ease;
+            h3 {
+                margin-top: 20px;
+                margin-bottom: 10px;
+            }
+        }
+        .card:hover {
+            transform: translate(-5px, -5px);
+            box-shadow: 0 8px 16px rgba(255, 255, 255, 0.3),
+                0 12px 20px rgba(0, 0, 0, 0.15);
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    .howWork {
+        .cards {
+            flex-direction: column;
+        }
+    }
+}

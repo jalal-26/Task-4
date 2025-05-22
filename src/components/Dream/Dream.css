@@ -1,0 +1,71 @@
+.dream-section {
+    position: relative;
+    .title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #ffffff;
+        max-width: 606px;
+        margin: 0;
+        z-index: 5;
+        h1 {
+            text-align: center;
+            font-weight: 700;
+            font-size: 7rem;
+            line-height: 56px;
+        }
+        p {
+            text-align: center;
+            color: #ffffff;
+            margin-top: 58px;
+            font-weight: 400;
+            font-size: 3rem;
+            line-height: 26px;
+        }
+    }
+    img {
+        width: 100%;
+        min-height: 380px;
+        position: relative;
+    }
+    
+}
+.dream-section::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color:#00000080;
+    z-index: 2;
+}
+@media screen and (max-width: 1200px) {
+    .dream-section {
+        .title {
+            h1 {
+                font-size: 3.9rem;
+            }
+            p {
+                font-size: 1.5rem;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    .dream-section {
+        .title {
+            h1 {
+                text-align: center;
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+                margin-top: 20px;
+            }
+        }
+    }
+}

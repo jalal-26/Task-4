@@ -1,0 +1,67 @@
+.mostTrending {
+    .trending-cards {
+        display: flex;
+        flex-wrap:wrap;
+        gap: 30px 25px;
+        justify-content: center;
+        position: relative;
+        .trending-card {
+            width: 382px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px 0px #0000001a;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            img {
+                width: 100%;
+            }
+            span {
+                display: block;
+                margin-top: 16px;
+                font-weight: 600;
+                font-size: 1.8rem;
+                line-height: 28px;
+                color: var(--primary-color);
+            }
+            h3 {
+                width: 180px;
+                margin-bottom: 38px;
+                font-weight: 600;
+                font-size: 1.8rem;
+                line-height: 29px;
+            }
+        }
+        .trending-card:hover {
+            transform: translate(-5px, -5px);
+            box-shadow: 0 8px 16px rgba(255, 255, 255, 0.3),
+                0 12px 20px rgba(0, 0, 0, 0.15);
+        }
+        .address {
+            display: flex;
+            width: 309px;
+            gap: 10px;
+            .location {
+                width: 24px;
+                height: 24px;
+            }
+            p {
+                font-weight: 400;
+                font-size: 1.4rem;
+                line-height: 20px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    .mostTrending {
+        .trending-cards {
+            .trending-card{
+                width: 320px;
+            }
+            .address{
+                p{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
